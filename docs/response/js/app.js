@@ -108,7 +108,7 @@
             
 
             var responsejson = { "has_apologised": true, "sticker_uuid": sticker_uuid, "apologyRec": true, "apologyPN": 1 }; //creates the response json string
-            var apologisePayload= "The terrible horrible parking man said hes very sory for putting your life in danger";
+            var apologisePayload= "The driver of the vehicle who inconvenienced you has apologised.";
 
             //Use $http service to send get request to API and execute different functions depending on whether it is successful or not
 
@@ -119,7 +119,7 @@
                 "message_id": "",   
                 "message_type": 0,   
                 "sender_role": 0,   
-                "payload": "{\"RESPONSE\":\"The terrible, horrible parking man has apologised for putting your life in danger\"}"
+                "payload": "{\"RESPONSE\":\"The driver of the vehicle who inconvenienced you has apologised.\"}"
             };
             //sends the payload to the api
             vm.sendPayload(responsePayload).then(
@@ -159,7 +159,7 @@
 
 
             var responsejson = { "has_apologised": true, "sticker_uuid": sticker_uuid, "apologyRec": true, "apologyPN": -1 }; //creates the response json
-            var refusePayload= "The terrible horrible parking man said hes refused to apologise for putting your life in danger";
+            var refusePayload= "The driver of the vehicle who inconvenienced you has refused to apologised.";
             //Use $http service to send get request to API and execute different functions depending on whether it is successful or not
 
             //creates the payload to send to teh push apo that creates a push notification for the user who reported the incident
@@ -169,7 +169,7 @@
                 "message_id": "",   
                 "message_type": 0,   
                 "sender_role": 0,   
-                "payload": "{\"RESPONSE\":\"The terrible horrible parking man has refused to apologise for putting your life in danger\"}"
+                "payload": "{\"RESPONSE\":\"The driver of the vehicle who inconvenienced you has refused to apologised.\"}"
             };
                 /* "payload": JSON.stringify(responsejson),  */
 

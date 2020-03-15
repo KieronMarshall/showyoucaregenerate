@@ -15,10 +15,9 @@
     <script src="lib/instascan/instascan.min.js"></script>
 
     <link rel="stylesheet" href="css/style.css">
-    <!--<div style="background-image: url('img/wallpaperv2.png'); background-image: repeat;">-->
 
 
-    <title>Angular App Demo</title>
+    <title>Show You Care Park Elsewhere</title>
 </head>
 
 <!-- 'ng-app' - angular module binding -->
@@ -29,30 +28,22 @@
         <h1>Show You Care Park Elsewhere</h1>
     </div>
     <br>
-    <br />
-    <br />
     <div ng-show="vm.hasResponded===false">
         <p style="font-size:2vw;font-size:2.5vmax;color:black;">Your parking has inconvenienced someone!</p>
         <p style="font-size:2vw;font-size:2.5vmax;color:black;">They would like you respond to them:</p>
-        <br />
-        <br />
+        <br>
+        <br>
         <form id="form1">
             <button id="yes" ng-click="vm.apologise()">Apologise</button>
             <button id="no" ng-click="vm.refuse()">Ignore</button>
         </form>
     </div>
+
     <div ng-show="vm.giveThanks===true">
         <br>
-        <br>
-        <!--<div class="container4">-->
-        <p style="font-size:2vw;font-size:2.5vmax;color:black";> Thank you for responding</p><!--</div>-->
+        <p style="font-size:2vw;font-size:2.5vmax;color:black";> Thank you for responding</p>
         <br>
     </div>
-
-    <!--<div class="container2">
-        <p>Copyright</p>
-    </div>-->   
-
 </body>
 
 </html>
