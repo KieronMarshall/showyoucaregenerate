@@ -1,0 +1,166 @@
+@import url('https://fonts.googleapis.com/css?family=Saira+Condensed&display=swap');
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, sans-serif;
+}
+
+h1 {
+  text-align: center;
+  padding-top: 10px;
+  padding-bottom: 15px;
+  padding-left: 15px;
+  color: white;
+  font-size: 20px;
+  text-align: left;
+  font-family: Saira Condensed;
+}
+h2 {
+  text-align: center;
+  color: black;
+  font-size: 20px;
+}
+p {
+    padding-bottom: 5px;
+    margin-left: 10px;
+    margin-bottom: 10px;
+    text-align: center;
+    font-size: 30px;
+	font-family: Saira Condensed;
+  
+}
+form#form1>button:hover{
+  
+  background-color: #7289da;
+  cursor: pointer;
+  color: white;
+  box-shadow: 0px 0px 15px black;
+}
+
+
+
+form#form1>p {
+ 
+float:left;
+margin-right:20px;
+margin-top:10px;
+    text-align: center;
+}
+
+form#form1>button{
+  background: none;
+  border: solid black 1px;
+  font-size:35px;
+  width:60%;
+  height: 200px;
+  box-shadow:0px 0px 15px #7289da;
+  border-radius: 3px;
+  display:inline-block;
+  padding: 10px;
+  margin-left: 10px;
+  margin-right: 5px;
+  margin-bottom: 20px;
+  font-family: Saira Condensed;
+  background-color: white;
+  position: relative;
+  color: black;
+  font-weight: bold;
+  text-align: center;
+}
+
+
+li.sticker {
+
+  border:2px solid black !important;
+  border-radius:1em !important;
+  padding:1em !important;
+  list-style-type: none !important;
+  margin-left: 25% !important;
+  margin-right:35% !important;
+  margin-top:20px;
+  margin-bottom:20px;
+  background-color:white;
+  width:500px;
+  
+}
+
+qrcode {
+padding-left: 40%;
+}
+
+form#form1>input {
+
+  border-radius: 3px;
+  display:inline-block;
+  padding-top:5px;
+  padding-bottom: 5px;
+  margin:5px;
+ font-size:16px;
+ text-align:center;
+ width:350px;
+ text-align: center;
+ background-color: #fff;
+ border-color: #7289da;
+}
+
+
+li>p {
+
+  color:silver;
+  font-size:small;
+  font-family: Saira Condensed;
+  
+  }
+
+div#printbtn {
+
+}
+
+div#generatebtn{
+	
+}
+
+
+body{
+  background-color: white;
+}
+img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top:20px;
+  margin-bottom:20px;
+  border: solid black 4px;
+  border-radius: 10px;
+  max-width: 200px;
+  min-width: 200px;
+  height: auto;
+
+}
+
+.containerTop {
+    width: 100%;
+	height: 50px;
+    margin: 0 auto;
+    background: #7289da;
+}
+
+.container2 {
+   background: #FFFF00;
+   width: 100%;
+   height: 50px;
+   color: black;
+   bottom: 0;
+   position: fixed;
+
+}
+
+	
+form#form1 {
+	   text-align: center;
+		
+	}
+	
+	
+
