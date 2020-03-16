@@ -43,6 +43,7 @@
         
 
         //if there are no parameters in the url
+        console.log(sticker_uuid + "heyp");
         if(sticker_uuid==null)
         {
             vm.hasResponded=true;   //hide the response buttons
