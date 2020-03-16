@@ -44,6 +44,11 @@
         <p style="font-size:2vw;font-size:2.5vmax;color:black";> Thank you for responding</p>
         <br>
     </div>
+
+    <video muted autoplay id="qr-video" style="transform: scaleX(-1);"></video>
+
+    <button id="scan" ng-click="vm.scanQRcode()" ng-show="vm.hasParams===false">Scan QR code</button>
+    
 </body>
 
 </html>
