@@ -27,28 +27,30 @@
     <div class="container">
         <h1>Show You Care Park Elsewhere</h1>
     </div>
+
+    <p style="font-size:2vw;font-size:2.5vmax;color:black;">Your parking has inconvenienced someone!</p>
+    <p style="font-size:2vw;font-size:2.5vmax;color:black;">They would like you respond to them:</p>
+    <br>
+    <br>
+
     <br>
     <div ng-show="vm.hasResponded===false">
-        <p style="font-size:2vw;font-size:2.5vmax;color:black;">Your parking has inconvenienced someone!</p>
-        <p style="font-size:2vw;font-size:2.5vmax;color:black;">They would like you respond to them:</p>
-        <br>
-        <br>
         <form id="form1">
-            <button id="yes" ng-click="vm.apologise()">Apologise</button>
-            <button id="no" ng-click="vm.refuse()">Ignore</button>
+            <button id="yes"ng-click="vm.apologise()">Apologise</button>
+            <button id="no"ng-click="vm.refuse()">Ignore</button>
         </form>
     </div>
-
     <div ng-show="vm.giveThanks===true">
         <br>
         <p style="font-size:2vw;font-size:2.5vmax;color:black";> Thank you for responding</p>
         <br>
     </div>
 
+    <!--video element must have autoplay otherwise nothing shows up on screen when you press the button-->
     <video muted autoplay id="qr-video" style="transform: scaleX(-1);"></video>
 
+    <!--bind button click event to function in data model-->
     <button id="scan" ng-click="vm.scanQRcode()" ng-show="vm.hasParams===false">Scan QR code</button>
-    
 </body>
 
 </html>

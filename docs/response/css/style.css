@@ -96,19 +96,23 @@ video#qr-video{
 
 button#scan{
   background: none;
-  border:none;
-  font-size:16px;
-  width:200px;
-  background-color:#155BB4;
-  color:white;
-  box-shadow:0px 0px 7px black;
+  border: solid black 2px;
+  font-size: 24px;
+  font-family: Saira Condensed;
+  width: 60%;
+  height: 100px;
+  background-color: white;
+  color: Black;
+  box-shadow: 0px 0px 15px #7289DA;
   border-radius: 3px;
-  display:block;
-  padding-top:5px;
-  padding-bottom: 5px;
-  margin-top:5px;
-  margin-left:auto;
-  margin-right:auto;
+  display: inline-block;
+  padding: 10px;
+  margin-left: 10px;
+  margin-right: 5px;
+  margin-bottom: 20px;
+  font-weight: bold;
+  position: relative;
+  left: 20%;
 }
 
 
